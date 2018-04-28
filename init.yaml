@@ -1,0 +1,11 @@
+#cloud-config
+users:
+
+        - name: core
+
+          ssh-authorized-keys:
+
+                - ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAl3hRqo9K2M3cny/5qGm11HErGgZBmwFHv3ZePl/bBRULndo0KBpPuHnzmCmO4yxO3t2USoIMPa9DWdOsiSq3H+apf0sfXEQsMhRYS2QkcsCQqWO0Iba4DQKjD5Garp0ioTdZX6kn+MtF2i3AqjW6XfgDGnGGaaSneA4899Cr46a8LiKw3YANB/6mUar93lbnG8L0pvdBmY8VO2u/HUX2X5mkM91FR2gk4JqPRUI87r2Jr4Utka0VGrAp4pWPzdFecWyx/5D7/fioPE8eqCcwfn5b73aP7ZM/ciBZr6pD5oVnPuY3HVxRehx1PhpSm+L0foHHt6yx5FdlkZU3tylzRQ==
+        - groups:
+             - sudo
+               - docker
