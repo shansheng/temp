@@ -38,7 +38,7 @@ coreos:
           content: |
             [Unit]
             [Service]
-            Environment=DOCKER_OPTS='--insecure-registry="0.0.0.0/0"'
+            Environment=DOCKER_OPTS='--registry-mirror=http://2bf52f5e.m.daocloud.io --insecure-registry="0.0.0.0/0"'
     - name: static.network  
       content: |  
         [Match]  
